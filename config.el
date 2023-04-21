@@ -257,3 +257,6 @@
   :ensure t)
 
 (setq lsp-java-jdt-download-url  "https://download.eclipse.org/jdtls/milestones/0.57.0/jdt-language-server-0.57.0-202006172108.tar.gz")
+
+(use-package! vertico
+  :bind ("C-M-y" . +vertico/project-search))

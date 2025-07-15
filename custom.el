@@ -5,7 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(flycheck-checker-error-threshold 500)
  '(package-selected-packages
-   '(prettier prettier-js php-cs-fixer org-roam multiple-cursors))
+   '(lsp-haskell blacken prettier prettier-js php-cs-fixer org-roam multiple-cursors))
  '(tab-width 4))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

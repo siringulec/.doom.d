@@ -260,3 +260,9 @@
 
 (use-package! vertico
   :bind ("C-M-y" . +vertico/project-search))
+
+(setq lsp-csharp-root
+      (lambda (_file)
+        (or (locate-dominating-file default-directory ".sln")
+            (locate-dominating-file default-directory ".csproj"))))
+(setq lsp-disabled-clients '(omnisharp))
